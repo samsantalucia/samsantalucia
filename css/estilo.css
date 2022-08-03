@@ -1,0 +1,151 @@
+/*Comentario*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   background-color: greenyellow;
+   text-align: justify;
+   font-size: 30px;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+h1{
+    color: red;
+    font-family: 'Rubik Moonrocks', cursive;    
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+div p{
+    color: red;
+}
+
+footer{
+    color: blueviolet;
+}
+
+a{
+    color: blue;
+    font-style: italic;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/*BOX MODELING*/
+
+.footer {
+
+    background-color: black;
+    
+    border: 1px;color: black solid;  
+
+    padding: 8px;
+
+    margin: 15px 10px;
+
+}
+
+.blueVelvetFoto {
+    width: 200px;
+}
+
+.openMicJunio {
+    width: 100%;
+}
+
+.contenedorPadre {
+    border: 3px; color: black solid;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.ContenedorPadreMemes {
+
+    border: 3px; color: black solid;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+   
+}
+
+.menuIndex .contenedorMenu {
+    list-style: none;
+}
+
+.contenedorPadreMenu {
+
+display: flex;
+list-style: none;
+flex-flow: row wrap;
+justify-content: center;
+align-content: stretch
+
+
+}
+
+.bodyIndex { 
+    display: grid;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    grid-template-areas: 
+    "banner banner"
+    "tituloIndex tituloIndex"
+    "nav nav"
+    "fotoOpenMicJunio Ubicacion"
+    "fotoOpenMicJunio Ubicacion"
+    "footerIndex footerIndex"
+    ;
+
+
+}
+
+.bodyContacto {
+
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-areas: 
+    "h1Contacto h1Contacto"
+    "menuContacto menuContacto"
+    "formularioContacto ubicacionContacto"
+    "formularioContacto ubicacionContacto"
+    "footerContacto footerContacto"
+    ;
+
+
+
+}
+
+
+    @media (min-width:768px) {
+        
+    }
+
+    .soyYo {
+background: linear-gradient(to right, violet, skyblue)
+
+    }
